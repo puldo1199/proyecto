@@ -14,7 +14,7 @@ function seleccionar(){
 }
 function efectoHabilidades(){
     var skills = document.getElementById("skills")
-    var distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
+    var distancia_skills = window.innerHeight - skills.getAnimations().top;
     if(distancia_skills >= 300){
         let hanilidades = document.getElementsByClassName("progreso")
         habilidades[0].classList.add("javascript");
